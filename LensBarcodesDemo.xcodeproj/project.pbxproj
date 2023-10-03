@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A9793AA654456C54429FF31 /* Pods_LensBarcodesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0046A6CB989B3784E03065 /* Pods_LensBarcodesDemo.framework */; };
+		9DD7F6A72AB11D38001E7483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6A62AB11D38001E7483 /* AppDelegate.swift */; };
+		9DD7F6A92AB11D38001E7483 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6A82AB11D38001E7483 /* SceneDelegate.swift */; };
+		9DD7F6AE2AB11D38001E7483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7F6AC2AB11D38001E7483 /* Main.storyboard */; };
+		9DD7F6B02AB11D39001E7483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7F6AF2AB11D39001E7483 /* Assets.xcassets */; };
+		9DD7F6B32AB11D39001E7483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7F6B12AB11D39001E7483 /* LaunchScreen.storyboard */; };
+		9DD7F6C92AB27942001E7483 /* LensSettingsViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6BA2AB27942001E7483 /* LensSettingsViewController+TableViewDelegate.swift */; };
+		9DD7F6CA2AB27942001E7483 /* String+TitleCased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6BC2AB27942001E7483 /* String+TitleCased.swift */; };
+		9DD7F6CB2AB27942001E7483 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6BD2AB27942001E7483 /* Color+Hex.swift */; };
+		9DD7F6CC2AB27942001E7483 /* LensSettingsViewController+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6BE2AB27942001E7483 /* LensSettingsViewController+TableViewDataSource.swift */; };
+		9DD7F6CD2AB27942001E7483 /* LensSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6BF2AB27942001E7483 /* LensSettingsViewController.swift */; };
+		9DD7F6CE2AB27942001E7483 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C12AB27942001E7483 /* Keys.swift */; };
+		9DD7F6CF2AB27942001E7483 /* VeryfiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C22AB27942001E7483 /* VeryfiSwitch.swift */; };
+		9DD7F6D02AB27942001E7483 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C32AB27942001E7483 /* LogsViewController.swift */; };
+		9DD7F6D12AB27942001E7483 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C42AB27942001E7483 /* LensSettingsViewController+ColorPickerDelegate.swift */; };
+		9DD7F6D22AB27942001E7483 /* ValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C62AB27942001E7483 /* ValueTableViewCell.swift */; };
+		9DD7F6D32AB27942001E7483 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C72AB27942001E7483 /* ColorTableViewCell.swift */; };
+		9DD7F6D42AB27942001E7483 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7F6C82AB27942001E7483 /* SwitchTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B48721C6626F9EA9E65FD1D /* Pods-LensBarcodesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensBarcodesDemo.release.xcconfig"; path = "Target Support Files/Pods-LensBarcodesDemo/Pods-LensBarcodesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C0046A6CB989B3784E03065 /* Pods_LensBarcodesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensBarcodesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD7F6A32AB11D38001E7483 /* LensBarcodesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensBarcodesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD7F6A62AB11D38001E7483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DD7F6A82AB11D38001E7483 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DD7F6AD2AB11D38001E7483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DD7F6AF2AB11D39001E7483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DD7F6B22AB11D39001E7483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DD7F6B42AB11D39001E7483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD7F6BA2AB27942001E7483 /* LensSettingsViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		9DD7F6BC2AB27942001E7483 /* String+TitleCased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TitleCased.swift"; sourceTree = "<group>"; };
+		9DD7F6BD2AB27942001E7483 /* Color+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		9DD7F6BE2AB27942001E7483 /* LensSettingsViewController+TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		9DD7F6BF2AB27942001E7483 /* LensSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LensSettingsViewController.swift; sourceTree = "<group>"; };
+		9DD7F6C12AB27942001E7483 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		9DD7F6C22AB27942001E7483 /* VeryfiSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeryfiSwitch.swift; sourceTree = "<group>"; };
+		9DD7F6C32AB27942001E7483 /* LogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
+		9DD7F6C42AB27942001E7483 /* LensSettingsViewController+ColorPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+ColorPickerDelegate.swift"; sourceTree = "<group>"; };
+		9DD7F6C62AB27942001E7483 /* ValueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueTableViewCell.swift; sourceTree = "<group>"; };
+		9DD7F6C72AB27942001E7483 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		9DD7F6C82AB27942001E7483 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		D5DD3C5D14AD95790B0CE4CD /* Pods-LensBarcodesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensBarcodesDemo.debug.xcconfig"; path = "Target Support Files/Pods-LensBarcodesDemo/Pods-LensBarcodesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD7F6A02AB11D38001E7483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9793AA654456C54429FF31 /* Pods_LensBarcodesDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB6143F8501D4285246869A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C0046A6CB989B3784E03065 /* Pods_LensBarcodesDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD7F69A2AB11D38001E7483 = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6A52AB11D38001E7483 /* LensBarcodesDemo */,
+				9DD7F6A42AB11D38001E7483 /* Products */,
+				EDC54536299B7BAFDF3A5D7C /* Pods */,
+				1DB6143F8501D4285246869A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD7F6A42AB11D38001E7483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6A32AB11D38001E7483 /* LensBarcodesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD7F6A52AB11D38001E7483 /* LensBarcodesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6A62AB11D38001E7483 /* AppDelegate.swift */,
+				9DD7F6C52AB27942001E7483 /* Cells */,
+				9DD7F6BB2AB27942001E7483 /* Extensions */,
+				9DD7F6BF2AB27942001E7483 /* LensSettingsViewController.swift */,
+				9DD7F6C42AB27942001E7483 /* LensSettingsViewController+ColorPickerDelegate.swift */,
+				9DD7F6BE2AB27942001E7483 /* LensSettingsViewController+TableViewDataSource.swift */,
+				9DD7F6BA2AB27942001E7483 /* LensSettingsViewController+TableViewDelegate.swift */,
+				9DD7F6C32AB27942001E7483 /* LogsViewController.swift */,
+				9DD7F6C02AB27942001E7483 /* Utils */,
+				9DD7F6A82AB11D38001E7483 /* SceneDelegate.swift */,
+				9DD7F6AC2AB11D38001E7483 /* Main.storyboard */,
+				9DD7F6AF2AB11D39001E7483 /* Assets.xcassets */,
+				9DD7F6B12AB11D39001E7483 /* LaunchScreen.storyboard */,
+				9DD7F6B42AB11D39001E7483 /* Info.plist */,
+			);
+			path = LensBarcodesDemo;
+			sourceTree = "<group>";
+		};
+		9DD7F6BB2AB27942001E7483 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6BC2AB27942001E7483 /* String+TitleCased.swift */,
+				9DD7F6BD2AB27942001E7483 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DD7F6C02AB27942001E7483 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6C12AB27942001E7483 /* Keys.swift */,
+				9DD7F6C22AB27942001E7483 /* VeryfiSwitch.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9DD7F6C52AB27942001E7483 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7F6C62AB27942001E7483 /* ValueTableViewCell.swift */,
+				9DD7F6C72AB27942001E7483 /* ColorTableViewCell.swift */,
+				9DD7F6C82AB27942001E7483 /* SwitchTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EDC54536299B7BAFDF3A5D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD3C5D14AD95790B0CE4CD /* Pods-LensBarcodesDemo.debug.xcconfig */,
+				0B48721C6626F9EA9E65FD1D /* Pods-LensBarcodesDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD7F6A22AB11D38001E7483 /* LensBarcodesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD7F6B72AB11D39001E7483 /* Build configuration list for PBXNativeTarget "LensBarcodesDemo" */;
+			buildPhases = (
+				390EC5FDBEA6AE15B0C06EDC /* [CP] Check Pods Manifest.lock */,
+				9DD7F69F2AB11D38001E7483 /* Sources */,
+				9DD7F6A02AB11D38001E7483 /* Frameworks */,
+				9DD7F6A12AB11D38001E7483 /* Resources */,
+				9DD7F6D52AB27A93001E7483 /* Add environment variables */,
+				3CD8199496CB8D1F64BB2A71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LensBarcodesDemo;
+			productName = LensBarcodesDemo;
+			productReference = 9DD7F6A32AB11D38001E7483 /* LensBarcodesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD7F69B2AB11D38001E7483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9DD7F6A22AB11D38001E7483 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DD7F69E2AB11D38001E7483 /* Build configuration list for PBXProject "LensBarcodesDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DD7F69A2AB11D38001E7483;
+			productRefGroup = 9DD7F6A42AB11D38001E7483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD7F6A22AB11D38001E7483 /* LensBarcodesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD7F6A12AB11D38001E7483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD7F6B32AB11D39001E7483 /* LaunchScreen.storyboard in Resources */,
+				9DD7F6B02AB11D39001E7483 /* Assets.xcassets in Resources */,
+				9DD7F6AE2AB11D38001E7483 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		390EC5FDBEA6AE15B0C06EDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LensBarcodesDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD8199496CB8D1F64BB2A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LensBarcodesDemo/Pods-LensBarcodesDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LensBarcodesDemo/Pods-LensBarcodesDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LensBarcodesDemo/Pods-LensBarcodesDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD7F6D52AB27A93001E7483 /* Add environment variables */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Add environment variables";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ -f ./env-variables.sh ]\nthen\nsource ./env-variables.sh\nfi\nINFO_PLIST=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_CLIENT_ID string $VERYFI_CLIENT_ID\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_USERNAME string $VERYFI_USERNAME\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_API_KEY string $VERYFI_API_KEY\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_URL string $VERYFI_URL\" \"$INFO_PLIST\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD7F69F2AB11D38001E7483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD7F6C92AB27942001E7483 /* LensSettingsViewController+TableViewDelegate.swift in Sources */,
+				9DD7F6D32AB27942001E7483 /* ColorTableViewCell.swift in Sources */,
+				9DD7F6D42AB27942001E7483 /* SwitchTableViewCell.swift in Sources */,
+				9DD7F6CC2AB27942001E7483 /* LensSettingsViewController+TableViewDataSource.swift in Sources */,
+				9DD7F6CF2AB27942001E7483 /* VeryfiSwitch.swift in Sources */,
+				9DD7F6CD2AB27942001E7483 /* LensSettingsViewController.swift in Sources */,
+				9DD7F6A72AB11D38001E7483 /* AppDelegate.swift in Sources */,
+				9DD7F6D02AB27942001E7483 /* LogsViewController.swift in Sources */,
+				9DD7F6D22AB27942001E7483 /* ValueTableViewCell.swift in Sources */,
+				9DD7F6CA2AB27942001E7483 /* String+TitleCased.swift in Sources */,
+				9DD7F6D12AB27942001E7483 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */,
+				9DD7F6A92AB11D38001E7483 /* SceneDelegate.swift in Sources */,
+				9DD7F6CE2AB27942001E7483 /* Keys.swift in Sources */,
+				9DD7F6CB2AB27942001E7483 /* Color+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DD7F6AC2AB11D38001E7483 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD7F6AD2AB11D38001E7483 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DD7F6B12AB11D39001E7483 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD7F6B22AB11D39001E7483 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DD7F6B52AB11D39001E7483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DD7F6B62AB11D39001E7483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD7F6B82AB11D39001E7483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DD3C5D14AD95790B0CE4CD /* Pods-LensBarcodesDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LensBarcodesDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan documents";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access photo gallery for document uploads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryfi.LensBarcodesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DD7F6B92AB11D39001E7483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B48721C6626F9EA9E65FD1D /* Pods-LensBarcodesDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LensBarcodesDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan documents";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access photo gallery for document uploads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryfi.LensBarcodesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD7F69E2AB11D38001E7483 /* Build configuration list for PBXProject "LensBarcodesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD7F6B52AB11D39001E7483 /* Debug */,
+				9DD7F6B62AB11D39001E7483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD7F6B72AB11D39001E7483 /* Build configuration list for PBXNativeTarget "LensBarcodesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD7F6B82AB11D39001E7483 /* Debug */,
+				9DD7F6B92AB11D39001E7483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD7F69B2AB11D38001E7483 /* Project object */;
+}
