@@ -8,5 +8,5 @@ target 'LensBarcodesDemo' do
   use_frameworks!
 
   # Pods for LensBarcodesDemo
-  pod 'VeryfiLens-Barcodes', '3.0.9.7'
+  pod 'VeryfiLens-Barcodes', '3.0.11.5'
 end
